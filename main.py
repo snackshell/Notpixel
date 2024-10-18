@@ -262,8 +262,6 @@ def print_banner():
     print(f"{Style.BRIGHT}{Fore.RED} made and written by TIGRAY TECH")
     print(f"{Style.BRIGHT}{Fore.RED} join telegram channel: https://t.me/tigraytechc")
 
-print_banner()
-
 if __name__ == "__main__":
     print_banner()
     while True:
