@@ -253,13 +253,13 @@ def reset_proxy():
     log_message("Proxy data reset successfully", Fore.GREEN)
 
 def print_banner():
-    print("███████  █████  ██    ██  █████  ███    ██ ")
-    print("██      ██   ██ ██    ██ ██   ██ ████   ██ ")
-    print("███████ ███████ ██    ██ ███████ ██ ██  ██ ")
-    print("     ██ ██   ██  ██  ██  ██   ██ ██  ██ ██ ")
-    print("███████ ██   ██   ████   ██   ██ ██   ████ ")
-    print(" made and written by savan || @savanop")
-    print("Join telegram channel: https://t.me/savanop121")
+    print("  _____ ___ ____ ____      _ __   __  _____ _____ ____ _   _  ")
+    print(" |_   _|_ _/ ___|  _ \    / \\ \ / / |_   _| ____/ ___| | | | ")
+    print("   | |  | | |  _| |_) |  / _ \\ V /    | | |  _|| |   | |_| | ")
+    print("   | |  | | |_| |  _ <  / ___ \| |     | | | |__| |___|  _  | ")
+    print("   |_| |___\____|_| \_\/_/   \_\_|     |_| |_____\____|_| |_| ")
+    print(" made and written by TigrayTech || @TigrayTechc")
+    print("Join telegram channel: https://t.me/tigraytechc")
 
 if __name__ == "__main__":
     print_banner()
