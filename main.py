@@ -3,6 +3,7 @@ import json
 import time
 import random
 import pyfiglet
+from colorama import Fore, Style, init
 from setproctitle import setproctitle
 from convert import get
 from colorama import Fore, Style, init
@@ -253,18 +254,13 @@ def reset_proxy():
         file.write('')
     log_message("Proxy data reset successfully", Fore.GREEN)
 
+init(autoreset=True)
+
 def print_banner():
-    # Generate the ASCII banner
     ascii_banner = pyfiglet.figlet_format("TIGRAY TECH")
-    
-    # ANSI escape codes: \033[1m is for bold, \033[32m is for green, and \033[0m resets
-    green_bold = "\033[1m\033[32m"
-    reset = "\033[0m"
-    
-    # Print the banner with green and bold, followed by a reset
-    print(f"{green_bold}{ascii_banner}{reset}")
-    print(f"{green_bold} made and written by TIGRAY TECH{reset}")
-    print(f"{green_bold}Join telegram channel: https://t.me/tigraytech{reset}")
+    print(f"{Style.BRIGHT}{Fore.GREEN}{ascii_banner}")
+    print(f"{Style.BRIGHT}{Fore.RED} made and written by TIGRAY TECH")
+    print(f"{Style.BRIGHT}{Fore.RED} join telegram channel: https://t.me/tigraytechc")
 
 print_banner()
 
