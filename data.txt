@@ -1,1 +1,1 @@
-
+user=%7B%22id%22%3A6470032846%2C%22first_name%22%3A%22Satoshi%22%2C%22last_name%22%3A%22N.%22%2C%22username%22%3A%22skexo%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&chat_instance=-7718209537914735734&chat_type=sender&auth_date=1729241356&hash=a1e224df5e081f0d2eae970649e3fae5595f7e55b64b2d21138ffc5abc846267
