@@ -255,12 +255,17 @@ def reset_proxy():
 
 def print_banner():
     ascii_banner = pyfiglet.figlet_format("TIGRAY TECH")
-    green_bold = "\033[1m\033[32m"
-    reset = "\033[0m"
+
+    green_bold = "\033[1m\033[32m"  # Green and bold
+    red_bold = "\033[1m\033[31m"    # Red and bold
+    reset = "\033[0m"               # Reset to default color and style
+
+    print(f"{green_bold}{ascii_banner}{reset}")
     
-    print(f"{red_bold}{ascii_banner}{reset}")
     print(f"{red_bold} made and written by TIGRAY TECH{reset}")
-    print(f"{red_bold} join telegram channel: https://t.me/tigraytech{reset}")
+    print(f"{red_bold} join telegram channel: https://t.me/tigraytechc{reset}")
+
+print_banner()
 
 if __name__ == "__main__":
     print_banner()
