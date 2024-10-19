@@ -257,10 +257,14 @@ def reset_proxy():
 init(autoreset=True)
 
 def print_banner():
-    ascii_banner = pyfiglet.figlet_format("TIGRAY TECH")
-    print(f"{Style.BRIGHT}{Fore.GREEN}{ascii_banner}")
-    print(f"{Style.BRIGHT}{Fore.RED} made and written by TIGRAY TECH")
-    print(f"{Style.BRIGHT}{Fore.RED} join telegram channel: https://t.me/tigraytechc")
+    print("██████╗ █████╗███╗   ██╗█████╗      ██████╗██████╗██████╗██████████████╗ ")
+    print("██╔══████╔══██████╗  ████╔══██╗    ██╔════██╔═══████╔══████╔════██╔════╝ ")
+    print("██████╔█████████╔██╗ █████████║    ██║    ██║   ████║  ███████╗ ███████╗ ")
+    print("██╔══████╔══████║╚██╗████╔══██║    ██║    ██║   ████║  ████╔══╝ ╚════██║ ")
+    print("██████╔██║  ████║ ╚██████║  ██║    ╚██████╚██████╔██████╔██████████████║
+           ╚═════╝╚═╝  ╚═╚═╝  ╚═══╚═╝  ╚═╝     ╚═════╝╚═════╝╚═════╝╚══════╚══════╝ ")    
+    print(" Made and written by BANA CODES || @banacodes")
+    print(" Join telegram channel: https://t.me/banacodes")")
 
 if __name__ == "__main__":
     print_banner()
