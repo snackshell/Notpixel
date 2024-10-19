@@ -263,8 +263,9 @@ def print_banner():
     print("██╔══████╔══████║╚██╗████╔══██║    ██║    ██║   ████║  ████╔══╝ ╚════██║ ")
     print("██████╔██║  ████║ ╚██████║  ██║    ╚██████╚██████╔██████╔██████████████║ ")
     print("╚═════╝╚═╝  ╚═╚═╝  ╚═══╚═╝  ╚═╝     ╚═════╝╚═════╝╚═════╝╚══════╚══════╝ ")    
+ 
     print(" Made and written by BANA CODES || @banacodes")
-    print(" Join telegram channel: https://t.me/banacodes")")
+    print(" Join telegram channel: https://t.me/banacodes")
 
 if __name__ == "__main__":
     print_banner()
